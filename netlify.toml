@@ -1,0 +1,16 @@
+[build]
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+
+[context.production]
+  [context.production.environment]
+    CONTENT_VERSION = 'published'
+    NEXT_PUBLIC_CONTENT_VERSION = 'published'
+
+[context.develop]
+  [context.develop.environment]
+    CONTENT_VERSION = 'draft'
+    NEXT_PUBLIC_CONTENT_VERSION = 'draft'
