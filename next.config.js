@@ -18,29 +18,14 @@ module.exports = withPlugins([
         return [
             {
                 source: '/instagram',
-                destination: 'https://www.instagram.com/mrck.dev/',
+                destination: 'https://www.instagram.com/lisiewicz_design/',
                 permanent: true
             },
             {
-                source: '/linkedin',
-                destination: 'https://www.linkedin.com/in/marcin-krawczyk-0326b434/',
+                source: '/owner',
+                destination: 'https://www.instagram.com/herkuless/',
                 permanent: true
             },
-            {
-                source: '/twitch',
-                destination: 'https://www.twitch.tv/mrckdev/',
-                permanent: true
-            },
-            {
-                source: '/github',
-                destination: 'https://github.com/marckraw',
-                permanent: true
-            },
-            {
-                source: '/twitter',
-                destination: 'https://twitter.com/marckraw',
-                permanent: true
-            }
         ]
     }
 })
