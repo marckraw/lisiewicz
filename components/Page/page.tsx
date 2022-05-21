@@ -8,7 +8,6 @@ interface PageProps {
 }
 
 const Page: React.FC<PageProps> = (props) => {
-  console.log("whatever");
   return (
     <SbEditable content={props.content}>
       <main>

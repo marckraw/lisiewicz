@@ -14,6 +14,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Lisiewicz Design</h1>
+        <h2>this is develop!</h2>
 
         <div className={styles.links}>
           <Link href="/instagram">
