@@ -1,7 +1,7 @@
 ## Stack
 - NextJS + Typescript
 - Cloudflare
-- Netlify
+- Vercel
 
 
 

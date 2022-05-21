@@ -13,9 +13,6 @@
     "serve:export:production": "yarn clean:all && yarn build && yarn export && npx http-serve ./out",
     "clean:all": "rm -rf .next && rm -rf ./out",
     "kill:next": "npx kill-port 3000",
-    "netlify:dev": "netlify dev",
-    "netlify:build": "netlify build",
-    "netlify:build:dry": "yarn build && netlify build",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -24,18 +21,17 @@
     "next": "^12.1.6",
     "react": "17",
     "react-dom": "17",
-    "sass": "^1.51.0",
+    "sass": "^1.52.1",
     "storyblok-js-client": "^4.5.2",
     "storyblok-react": "^0.1.2"
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^4.2.5",
     "@next/bundle-analyzer": "^12.1.6",
     "@types/gtag.js": "^0.0.10",
-    "@types/node": "^17.0.33",
+    "@types/node": "^17.0.35",
     "@types/react": "17",
-    "@typescript-eslint/eslint-plugin": "^5.24.0",
-    "eslint": "^8.15.0",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "eslint": "^8.16.0",
     "eslint-config-next": "^12.1.6",
     "eslint-config-prettier": "^8.5.0",
     "husky": "^8.0.1",
