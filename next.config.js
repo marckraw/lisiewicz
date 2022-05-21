@@ -22,6 +22,11 @@ module.exports = withPlugins([
                 permanent: true
             },
             {
+                source: '/facebook',
+                destination: 'https://www.facebook.com/Lisiewiczdesign/',
+                permanent: true
+            },
+            {
                 source: '/owner',
                 destination: 'https://www.instagram.com/herkuless/',
                 permanent: true
